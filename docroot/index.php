@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="shortcut icon" href="http://www.wesjones.net/sites/www.wesjones.net/themes/responsive_blog/favicon.ico" type="image/vnd.microsoft.icon" />
 
   <title>Drupal Consulting &amp; Web Development Rochester NY | WesJones.net</title>
 

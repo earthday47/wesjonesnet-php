@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="shortcut icon" href="http://www.wesjones.net/sites/www.wesjones.net/themes/responsive_blog/favicon.ico" type="image/vnd.microsoft.icon" />
 
   <title>About | Drupal Developer Rochester NY | WesJones.net</title>
 
@@ -62,7 +61,7 @@
 
     <div class="main-content">
 
-      <p><a class="btn btn-primary" href="/sites/www.wesjones.net/files/Resume-WesJones.pdf">View Wes' full resume &raquo;</a></p>
+      <p><a class="btn btn-primary" href="/files/Resume-WesJones.pdf">View Wes' full resume &raquo;</a></p>
       
       <h2>Drupal Consulting</h2>
 
