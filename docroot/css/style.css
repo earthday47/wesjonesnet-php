@@ -1,0 +1,115 @@
+/**
+ * Brand colors
+ *  - Light Grey #e9ebed
+ *  - Grey       #d4d8dc
+ *  - Yellow     #ffc152
+ *  - Orange     #ff9a52
+ *  - Blue       #45658f
+ *  - Green      #33a091
+ *  - Red        #f64f5f
+ */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600,600italic&subset=latin,latin-ext);
+body {
+	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1.8em;
+	/*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-weight: 600;
+}
+strong, b {
+	font-weight: 600;
+}
+.btn {
+	font-size: 16px;
+}
+.btn-lg, .btn-group-lg > .btn {
+	font-size: 20px;
+}
+
+body {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navbar {
+	border-radius: 0;
+  	margin-bottom: 15px;
+}
+.navbar-default {
+	background: none !important;
+	border: none !important;
+}
+.navbar-default .navbar-brand {
+	color: #000;
+	font-size: 24px;
+	font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #000;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color: #000;
+	background: #e7e7e7;
+}
+
+.container .jumbotron,
+.container-fluid .jumbotron {
+	border-radius: 0;
+	background: url(/img/great-wall.jpg) center center #000;
+	color: #fff;
+	max-width: 100%;
+}
+.about .container .jumbotron,
+.about .container-fluid .jumbotron {
+	background: url(/img/summer-palace.jpg) center center #000;
+}
+.jumbotron h1 {
+	margin-top: 0;
+}
+.jumbotron h1, .jumbotron h2, .jumbotron p {
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+.jumbotron .btn {
+	text-shadow: none;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.hero-panel {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.hero-feature {
+	height: 100%;
+	margin-bottom: 30px;
+}
+
+.hero-feature .img-container {
+	
+}
+
+.hero-feature img {
+	margin-top: 15px;
+	max-width: 100%;
+}
+
+.main-content {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+	.hero-feature {
+		text-align: center;
+	}
+	.hero-feature img {
+		height: 100px;
+	}
+}
