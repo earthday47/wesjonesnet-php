@@ -36,14 +36,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="mailto:wes@wesjones.net">WesJones.net</a>
+          <a class="navbar-brand" href="/">WesJones.net</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/work">Work</a></li>
-            <li><a href="mailto:wes@wesjones.net">Contact</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div><!--/.container-fluid -->
@@ -107,7 +107,7 @@
 
       <div class="col-xs-12 text-center">
         <p>
-          <a class="btn btn-lg btn-primary" href="mailto:wes@wesjones.net" role="button">Contact Wes for your next project &raquo;</a>
+          <a class="btn btn-lg btn-primary" href="/contact" role="button">Contact Wes for your next project &raquo;</a>
         </p>
       </div>
 

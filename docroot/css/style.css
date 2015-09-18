@@ -105,6 +105,11 @@ body {
 	margin-bottom: 30px;
 }
 
+.contact .main-content h3 {
+  line-height: 1.4em;
+  font-weight: normal;
+}
+
 /* Timeline */
 .timeline {
   list-style: none;

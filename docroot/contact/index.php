@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>About | Drupal Developer Rochester NY | WesJones.net</title>
+  <title>Contact | Drupal Consulting &amp; Web Development | Wesjones.net</title>
 
   <!-- Bootstrap core CSS -->
   <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,7 +22,7 @@
   <![endif]-->
 </head>
 
-<body class="about">
+<body class="contact">
 
   <div class="container">
 
@@ -41,44 +41,23 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="/">Home</a></li>
-            <li class="active"><a href="/about">About <span class="sr-only">(current)</span></a></li>
+            <li><a href="/about">About</a></li>
             <li><a href="/work">Work</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li class="active"><a href="/contact">Contact <span class="sr-only">(current)</span></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div><!--/.container-fluid -->
     </nav>
 
-    <div class="jumbotron container">
-      <!-- Main -->
-      <div class="col-xs-9 col-sm-8 col-md-7">
-        <h1>About</h1>
-        <h2>Wes Jones is a Web developer and Drupal consultant from Rochester,&nbsp;NY.</h2>
-        <p>Wes loves what he does, motivated by a passion for technology, mathematics, and problem solving.</p>
-      </div>
-    </div>
-
     <div class="main-content">
 
-      <p><a class="btn btn-primary" href="/files/Resume-WesJones.pdf">View Wes' full resume &raquo;</a></p>
-      
-      <h2>Drupal Consulting</h2>
+      <div class="container">
+        <h1>Contact</h1>
 
-      <p>Wes completed his first project with Drupal for Strong National Museum of Play in 2009&mdash;A Drupal 6 implementation with 6 interlocking websites, part of an 18-month rebranding and website redesign project. Since then, he's deployed more than a dozen sites in Drupal 6 and Drupal 7. He's used his extensive knowledge of the Drupal API to build Drupal themes and develop custom modules.</p>
+        <h3>If you'd like to contact me about custom development, a Website project, or just to say hi, email me at <a href="mailto:wes@wesjones.net">wes@wesjones.net</a>.</h3>
 
-      <h2>Website Development</h2>
-
-      <p>Wes specializes in custom website and Web application development on the LAMP stack&mdash;Linux, Apache, MySQL, and PHP&mdash;using PHP, HTML, CSS, and Javascript (jQuery).</p>
-
-      <p>While Wes has the most experience working with Drupal, he has built websites using custom PHP, Wordpress, and MVC frameworks like Yii.</p>
-
-      <h2>他也会讲中文!</h2>
-
-      <p>Wes loves learning languages. He's fluent in Mandarin Chinese and Spanish and has studied Cantonese, Korean, Japanese, and American Sign Language (ASL).</p>
-
-      <p>Wes lived in China from 2012-14 and traveled extensively throughout Asia. While at home, he enjoys playing music and watching sports, especially European football (soccer).</p>
-
-    </div>
+        <p>&nbsp;</p>
+      </div>
 
     <hr />
 
@@ -112,16 +91,6 @@
           <h3>Website Development</h3>
           <p>Wes provides custom PHP website solutions using modern frameworks and industry best practices.</p>
         </div>
-      </div>
-
-    </div>
-
-    <div class="row">
-
-      <div class="col-xs-12 text-center">
-        <p>
-          <a class="btn btn-lg btn-primary" href="mailto:wes@wesjones.net" role="button">Contact Wes for your next project &raquo;</a>
-        </p>
       </div>
 
     </div>
