@@ -65,9 +65,6 @@
       <h2>Timeline</h2>
 
       <div class="container">
-        <div class="page-header">
-            <h1 id="timeline">Timeline</h1>
-        </div>
         <ul class="timeline">
             <li>
               <div class="timeline-badge job"><i class="glyphicon glyphicon-briefcase"></i></div>
@@ -106,7 +103,7 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="timeline-title">George Eastman House - Technicolor100</h4>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://eastman.org/technicolor</small></p>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://eastman.org/technicolor">http://eastman.org/technicolor</a></small></p>
                 </div>
                 <div class="timeline-body"></div>
               </div>
@@ -116,7 +113,7 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="timeline-title">Bayer Video Tours</h4>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.bayervideotours.com/</small>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://www.bayervideotours.com/">http://www.bayervideotours.com/</a></small>
                 </div>
                 <div class="timeline-body"></div>
               </div>
@@ -126,9 +123,9 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="timeline-title">Museum of Science</h4>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.mos.org/</small><br />
-                  <small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://livinglab.org/</small><br />
-                  <small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://nanomedicine-explorer.net/</small></p>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://www.mos.org/">http://www.mos.org/</a></small><br />
+                  <small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://livinglab.org/">http://livinglab.org/</a></small><br />
+                  <small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://nanomedicine-explorer.net/">http://nanomedicine-explorer.net/</a></small></p>
                 </div>
                 <div class="timeline-body"></div>
               </div>
@@ -144,10 +141,10 @@
                   <p>Website development with Wordpress, Web application development with Yii Framework. Project planning, workload balancing, QA and testing for team of 5 developers.</p>
                   <p>Major development contributed to these projects:</p>
                   <ul>
-                    <li>Draft Sharks (http://www.draftsharks.com/)</li>
-                    <li>Monroe Tractor (http://www.monroetractor.com/)</li>
-                    <li>All Collector Cars (http://www.allcollectorcars.com/)</li>
-                    <li>IASSIDD (https://www.iassidd.org/)</li>
+                    <li><a href="http://www.draftsharks.com/">http://www.draftsharks.com/</a></li>
+                    <li><a href="http://www.monroetractor.com/">http://www.monroetractor.com/</a></li>
+                    <li><a href="http://www.monroetractor.com/">http://www.allcollectorcars.com/</a></li>
+                    <li><a href="https://www.iassidd.org/">https://www.iassidd.org/</a></li>
                   </ul>
                 </div>
               </div>
@@ -169,12 +166,12 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="timeline-title">The Strong</h4>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.thestrong.org/</small><br />
-                  <small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.museumofplay.org/</small><br />
-                  <small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.journalofplay.org/</small><br />
-                  <small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.icheg.org/</small><br />
-                  <small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.toyhalloffame.org/</small><br />
-                  <small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.libraryandarchivesofplay.org/</small></p>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://www.thestrong.org/">http://www.thestrong.org/</a></small><br />
+                  <small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://www.museumofplay.org/">http://www.museumofplay.org/</a></small><br />
+                  <small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://www.journalofplay.org/">http://www.journalofplay.org/</a></small><br />
+                  <small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://www.icheg.org/">http://www.icheg.org/</a></small><br />
+                  <small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://www.toyhalloffame.org/">http://www.toyhalloffame.org/</a></small><br />
+                  <small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://www.libraryandarchivesofplay.org/">http://www.libraryandarchivesofplay.org/</a></small></p>
                 </div>
                 <div class="timeline-body"></div>
               </div>
@@ -184,7 +181,7 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="timeline-title">The Strong Online Collections</h4>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.thestrong.org/online-collections/</small></p>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://www.thestrong.org/online-collections/">http://www.thestrong.org/online-collections/</a></small></p>
                 </div>
                 <div class="timeline-body"></div>
               </div>
@@ -198,7 +195,7 @@
                 </div>
                 <div class="timeline-body">
                   <p>Graduated with Bachelor's of Science in Computer Information Systems and Mathematics.</p>
-                  <p>Development contributed to campus website, http://www.brockport.edu/.</p>
+                  <p>Development contributed to campus website, <a href="http://www.brockport.edu/">http://www.brockport.edu/</a>.</p>
                 </div>
               </div>
             </li>
