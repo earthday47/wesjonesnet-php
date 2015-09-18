@@ -43,7 +43,6 @@
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
             <li class="active"><a href="/work">Work <span class="sr-only">(current)</span></a></li>
-            <li><a href="/blog">Blog</a></li>
             <li><a href="mailto:wes@wesjones.net">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
