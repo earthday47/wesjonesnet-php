@@ -77,13 +77,14 @@
                   <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> Feb 2015 - present</small></p>
                 </div>
                 <div class="timeline-body">
+                  <p>Drupal development for enterprise websites and Web applications for numerous clients, including:</p>
                   <ul>
-                    <li>http://www.magmutual.com/</li>
-                    <li>https://www.fastly.com/</li>
+                    <li><a href="http://www.magmutual.com/">MagMutual</a></li>
+                    <li><a href="https://www.fastly.com/">Fastly</a></li>
                     <li>Novartis</li>
-                    <li>http://www.linguisticsociety.org/</li>
-                    <li>https://www.mint.com/</li>
-                    <li>http://www.quicken.com/</li>
+                    <li><a href="http://www.linguisticsociety.org/">Linguistic Society of America</a></li>
+                    <li><a href="https://www.mint.com/">Mint.com</a></li>
+                    <li><a href="http://www.quicken.com/">Quicken.com</a></li>
                   </ul>
                 </div>
               </div>
@@ -96,7 +97,7 @@
                   <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> Dec 2011 - present</small></p>
                 </div>
                 <div class="timeline-body">
-                  <p>Mussum ipsum</p>
+                  <p>Drupal and PHP application development consultant. Website design and development with PHP/MySQL, Drupal 6, Drupal 7, Wordpress, and more.</p>
                 </div>
               </div>
             </li>
@@ -107,9 +108,7 @@
                   <h4 class="timeline-title">George Eastman House - Technicolor100</h4>
                   <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://eastman.org/technicolor</small></p>
                 </div>
-                <div class="timeline-body">
-                  <p>Missum ipsum</p>
-                </div>
+                <div class="timeline-body"></div>
               </div>
             </li>
             <li class="timeline-inverted">
@@ -117,13 +116,9 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="timeline-title">Bayer Video Tours</h4>
-                  <ul>
-                    <li>http://www.bayervideotours.com/</li>
-                  </ul>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.bayervideotours.com/</small>
                 </div>
-                <div class="timeline-body">
-                  <p>Missum ipsum</p>
-                </div>
+                <div class="timeline-body"></div>
               </div>
             </li>
             <li class="timeline-inverted">
@@ -131,15 +126,11 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="timeline-title">Museum of Science</h4>
-                  <ul>
-                    <li>http://www.mos.org/</li>
-                    <li>http://livinglab.org/</li>
-                    <li>http://nanomedicine-explorer.net/</li>
-                  </ul>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.mos.org/</small><br />
+                  <small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://livinglab.org/</small><br />
+                  <small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://nanomedicine-explorer.net/</small></p>
                 </div>
-                <div class="timeline-body">
-                  <p>Missum ipsum</p>
-                </div>
+                <div class="timeline-body"></div>
               </div>
             </li>
             <li>
@@ -150,13 +141,14 @@
                   <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> Sept 2014 - Jan 2015</small></p>
                 </div>
                 <div class="timeline-body">
+                  <p>Website development with Wordpress, Web application development with Yii Framework. Project planning, workload balancing, QA and testing for team of 5 developers.</p>
+                  <p>Major development contributed to these projects:</p>
                   <ul>
-                    <li>http://www.draftsharks.com/</li>
-                    <li>http://www.monroetractor.com/</li>
-                    <li>All Collector Cars</li>
-                    <li>IASSIDD</li>
+                    <li>Draft Sharks (http://www.draftsharks.com/)</li>
+                    <li>Monroe Tractor (http://www.monroetractor.com/)</li>
+                    <li>All Collector Cars (http://www.allcollectorcars.com/)</li>
+                    <li>IASSIDD (https://www.iassidd.org/)</li>
                   </ul>
-                  <p>Mussum ipsum</p>
                 </div>
               </div>
             </li>
@@ -168,7 +160,7 @@
                   <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> May 2009 - Dec 2011</small></p>
                 </div>
                 <div class="timeline-body">
-                  <p>Mussum ipsum</p>
+                  <p>Website development and maintenance, Web application development for user-submission contests.</p>
                 </div>
               </div>
             </li>
@@ -177,16 +169,14 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="timeline-title">The Strong</h4>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.thestrong.org/</small></p>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.museumofplay.org/</small></p>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.journalofplay.org/</small></p>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.icheg.org/</small></p>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.toyhalloffame.org/</small></p>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.libraryandarchivesofplay.org/</small></p>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.thestrong.org/</small><br />
+                  <small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.museumofplay.org/</small><br />
+                  <small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.journalofplay.org/</small><br />
+                  <small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.icheg.org/</small><br />
+                  <small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.toyhalloffame.org/</small><br />
+                  <small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.libraryandarchivesofplay.org/</small></p>
                 </div>
-                <div class="timeline-body">
-                  <p>Missum ipsum</p>
-                </div>
+                <div class="timeline-body"></div>
               </div>
             </li>
             <li class="timeline-inverted">
@@ -196,9 +186,7 @@
                   <h4 class="timeline-title">The Strong Online Collections</h4>
                   <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> http://www.thestrong.org/online-collections/</small></p>
                 </div>
-                <div class="timeline-body">
-                  <p>Missum ipsum</p>
-                </div>
+                <div class="timeline-body"></div>
               </div>
             </li>
             <li>
@@ -209,7 +197,8 @@
                   <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> May 2008 - May 2009</small></p>
                 </div>
                 <div class="timeline-body">
-                  <p>http://www.brockport.edu/</p>
+                  <p>Graduated with Bachelor's of Science in Computer Information Systems and Mathematics.</p>
+                  <p>Development contributed to campus website, http://www.brockport.edu/.</p>
                 </div>
               </div>
             </li>

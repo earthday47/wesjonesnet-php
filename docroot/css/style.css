@@ -136,7 +136,7 @@ body {
   float: left;
   border: 1px solid #d4d4d4;
   border-radius: 2px;
-  padding: 15px;
+  padding: 5px 15px;
   position: relative;
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
@@ -169,15 +169,12 @@ body {
   background-color: #3F51B5 !important;
 }
 .timeline-title {
-  margin-top: 0;
+  margin-top: 10px;
   color: inherit;
 }
-.timeline-body > p,
-.timeline-body > ul {
-  margin-bottom: 0;
-}
-.timeline-body > p + p {
-  margin-top: 5px;
+.timeline-panel p,
+.timeline-panel ul {
+  margin-bottom: 10px;
 }
 
 @media (min-width: 768px) {
