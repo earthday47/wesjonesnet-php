@@ -43,7 +43,7 @@ ErrorDocument 404 /404.php
   # Redirect all users to access the site WITH the 'www.' prefix.
   RewriteCond %{HTTP_HOST} .
   RewriteCond %{HTTP_HOST} !^www\. [NC]
-  RewriteCond %{HTTP_HOST} !^bootstrap-wesjones.rhcloud.com [NC]
+  RewriteCond %{HTTP_HOST} !^bootstrap-wesjones\.rhcloud\.com [NC]
   RewriteRule ^ http%{ENV:protossl}://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
   # Redirect any old blog link to the homepage.
