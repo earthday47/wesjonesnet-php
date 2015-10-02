@@ -100,7 +100,7 @@
     <footer>
       <div class="row text-right">
         <div class="col-lg-12">
-          <p>Copyright &copy; WesJones.net 2014</p>
+          <p>&copy; WesJones.net <?php echo date('Y'); ?></p>
         </div>
       </div>
     </footer>
