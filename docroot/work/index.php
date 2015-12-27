@@ -73,16 +73,48 @@
                   <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> Feb 2015 - present</small></p>
                 </div>
                 <div class="timeline-body">
-                  <p>Drupal development for enterprise websites and Web applications for numerous clients, including:</p>
-                  <ul>
-                    <li><a href="http://www.magmutual.com/">MagMutual</a></li>
-                    <li><a href="https://www.fastly.com/">Fastly</a></li>
-                    <li>Novartis</li>
-                    <li><a href="http://www.linguisticsociety.org/">Linguistic Society of America</a></li>
-                    <li><a href="https://www.mint.com/">Mint.com</a></li>
-                    <li><a href="http://www.quicken.com/">Quicken.com</a></li>
-                  </ul>
+                  <p>Drupal website and application development for enterprise-level clients.</p>
                 </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge project"><i class="glyphicon glyphicon-cog"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">MagMutual</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://www.magmutual.com/">http://www.magmutual.com/</a></small></p>
+                </div>
+                <div class="timeline-body"></div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge project"><i class="glyphicon glyphicon-cog"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Fastly</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://www.linguisticsociety.org/">http://www.linguisticsociety.org/</a></small></p>
+                </div>
+                <div class="timeline-body"></div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge project"><i class="glyphicon glyphicon-cog"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Quicken</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://www.quicken.com/">http://www.quicken.com/</a></small></p>
+                </div>
+                <div class="timeline-body"></div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge project"><i class="glyphicon glyphicon-cog"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Linguistic Society of America</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="https://www.fastly.com/">https://www.fastly.com/</a></small></p>
+                </div>
+                <div class="timeline-body"></div>
               </div>
             </li>
             <li>
@@ -102,7 +134,7 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="timeline-title">George Eastman House - Technicolor100</h4>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://eastman.org/technicolor">http://eastman.org/technicolor</a></small></p>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="https://www.eastman.org/technicolor">https://www.eastman.org/technicolor</a></small></p>
                 </div>
                 <div class="timeline-body"></div>
               </div>
@@ -138,14 +170,47 @@
                 </div>
                 <div class="timeline-body">
                   <p>Website development with Wordpress, Web application development with Yii Framework. Project planning, workload balancing, QA and testing for team of 5 developers.</p>
-                  <p>Major development contributed to these projects:</p>
-                  <ul>
-                    <li><a href="http://www.draftsharks.com/">http://www.draftsharks.com/</a></li>
-                    <li><a href="http://www.monroetractor.com/">http://www.monroetractor.com/</a></li>
-                    <li><a href="http://www.monroetractor.com/">http://www.allcollectorcars.com/</a></li>
-                    <li><a href="https://www.iassidd.org/">https://www.iassidd.org/</a></li>
-                  </ul>
                 </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge project"><i class="glyphicon glyphicon-cog"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Draft Sharks</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://www.draftsharks.com/">http://www.draftsharks.com/</a></small></p>
+                </div>
+                <div class="timeline-body"></div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge project"><i class="glyphicon glyphicon-cog"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Monroe Tractor</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://www.monroetractor.com/">http://www.monroetractor.com/</a></small></p>
+                </div>
+                <div class="timeline-body"></div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge project"><i class="glyphicon glyphicon-cog"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">All Collector Cars</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://www.allcollectorcars.com/">http://www.allcollectorcars.com/</a></small></p>
+                </div>
+                <div class="timeline-body"></div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge project"><i class="glyphicon glyphicon-cog"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">IASSIDD</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="https://www.iassidd.org/">https://www.iassidd.org/</a></small></p>
+                </div>
+                <div class="timeline-body"></div>
               </div>
             </li>
             <li>
@@ -194,8 +259,18 @@
                 </div>
                 <div class="timeline-body">
                   <p>Graduated with Bachelor's of Science in Computer Information Systems and Mathematics.</p>
-                  <p>Development contributed to campus website, <a href="http://www.brockport.edu/">http://www.brockport.edu/</a>.</p>
+                  <p>Development contributed to campus website.</p>
                 </div>
+              </div>
+            </li>
+             <li class="timeline-inverted">
+              <div class="timeline-badge project"><i class="glyphicon glyphicon-cog"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">The College at Brockport</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i>  <a href="http://www.brockport.edu/">http://www.brockport.edu/</a></small></p>
+                </div>
+                <div class="timeline-body"></div>
               </div>
             </li>
         </ul>
