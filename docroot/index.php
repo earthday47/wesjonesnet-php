@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Drupal Consulting &amp; Web Development Rochester NY | WesJones.net</title>
+  <title>Multilingual website development | Drupal consulting Rochester NY | WesJones.net</title>
 
   <!-- Bootstrap core CSS -->
   <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -51,12 +51,10 @@
 
     <!-- Main component for a primary marketing message or call to action -->
     <div class="jumbotron">
-      <h1>Drupal websites for museums.</h1>
-      <p>Wes Jones is a Web developer in <strong>Rochester, NY</strong>, specializing in <strong>Drupal consulting</strong> and custom website development for <strong>museums and cultural institutions</strong>.</p>
+      <h1>Drupal websites and translation&nbsp;services.</h1>
+      <p>Wes Jones is a Web developer from <strong>Rochester, NY</strong> living in <strong>Cuenca, Ecuador</strong>, specializing in <strong>Drupal</strong> and <strong>Backdrop CMS</strong> and multilingual website development in <strong>Spanish</strong> and <strong>Mandarin Chinese</strong>.</p>
       <p>
-        <!--<a class="btn btn-lg btn-primary" href="mailto:wes@wesjones.net" role="button">Contact Wes for your next project &raquo;</a>-->
-        Wes is currently employed as <strong>Software Engineer</strong> for<br />
-        <a href="http://www.thirdandgrove.com/" style="font-weight:bold">Third and Grove</a>.
+        <a class="btn btn-lg btn-primary" href="mailto:wes@wesjones.net" role="button">Contact Wes for your next project &raquo;</a>
       </p>
     </div>
 
@@ -64,11 +62,11 @@
 
       <div class="col-md-4 clearfix hero-feature">
         <div class="col-xs-3 col-md-12 img-container">
-          <img src="/img/colosseum-icon.png" alt="Drupal icon">
+          <img src="/img/translate-icon.png" alt="Translate icon">
         </div>
         <div class="col-xs-9 col-md-12 content-container">
-          <h3 class="">Museum Specialist</h3>
-          <p>Wes has over 5 years of experience working closely with museums on website redesigns and IMLS grant-funded projects.</p>
+          <h3 class="">Multilingual expert</h3>
+          <p>Wes is fluent in Spanish and Mandarin Chinese, and has experience setting up multilingual websites with the Drupal framework.</p>
           <!--<p>
             <a href="#" class="btn btn-primary">Learn more &raquo;</a>
           </p>-->
