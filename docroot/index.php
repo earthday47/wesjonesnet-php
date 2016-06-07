@@ -1,3 +1,4 @@
+<?php include_once "./_includes/global.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Multilingual website development | Drupal consulting Rochester NY | WesJones.net</title>
+  <title><?php print t('home_pagetitle', 'Multilingual website development | Drupal consulting Rochester NY'); ?> | WesJones.net</title>
 
   <!-- Bootstrap core CSS -->
   <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -40,10 +41,10 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/work">Work</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li class="active"><a href="/"><?php print t('nav_home', 'Home'); ?> <span class="sr-only">(current)</span></a></li>
+            <li><a href="/about"><?php print t('nav_about', 'About'); ?></a></li>
+            <li><a href="/work"><?php print t('nav_work', 'Work'); ?></a></li>
+            <li><a href="/contact"><?php print t('nav_contact', 'Contact'); ?></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div><!--/.container-fluid -->
@@ -51,10 +52,10 @@
 
     <!-- Main component for a primary marketing message or call to action -->
     <div class="jumbotron">
-      <h1>Drupal websites and translation&nbsp;services.</h1>
-      <p>Wes Jones is a Web developer from <strong>Rochester, NY</strong> living in <strong>Cuenca, Ecuador</strong>, specializing in <strong>Drupal</strong> and <strong>Backdrop CMS</strong> and multilingual website development in <strong>Spanish</strong> and <strong>Mandarin Chinese</strong>.</p>
+      <h1><?php print t('jumbotron_h1', 'Drupal websites and translation&nbsp;services.'); ?></h1>
+      <p><?php print t('jumbotron_p', 'Wes Jones is a Web developer from <strong>Rochester, NY</strong> living in <strong>Cuenca, Ecuador</strong>, specializing in <strong>Drupal</strong> and <strong>Backdrop CMS</strong> and multilingual website development in <strong>Spanish</strong> and <strong>Mandarin Chinese</strong>.'); ?></p>
       <p>
-        <a class="btn btn-lg btn-primary" href="mailto:wes@wesjones.net" role="button">Contact Wes for your next project &raquo;</a>
+        <a class="btn btn-lg btn-primary" href="mailto:wes@wesjones.net" role="button"><?php print t('cta_button_text', 'Contact Wes for your next project'); ?> &raquo;</a>
       </p>
     </div>
 
