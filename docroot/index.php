@@ -58,93 +58,9 @@
       </p>
     </div>
 
-    <div class="row hero-panel">
-
-      <div class="col-md-4 clearfix hero-feature">
-        <div class="col-xs-3 col-md-12 img-container">
-          <img src="/img/translate-icon.png" alt="Translate icon">
-        </div>
-        <div class="col-xs-9 col-md-12 content-container">
-          <h3 class="">Multilingual expert</h3>
-          <p>Wes is fluent in Spanish and Mandarin Chinese, and has experience setting up multilingual websites with the Drupal framework.</p>
-          <!--<p>
-            <a href="#" class="btn btn-primary">Learn more &raquo;</a>
-          </p>-->
-        </div>
-      </div>
-
-      <div class="col-md-4 clearfix hero-feature">
-        <div class="col-xs-3 col-md-12 img-container">
-          <img src="/img/druplicon-small.png" alt="Drupal icon">
-        </div>
-        <div class="col-xs-9 col-md-12 content-container">
-          <h3 class="">Drupal Consulting</h3>
-          <p>Wes specializes in site building, theming and custom module development using the Drupal 7 web application framework.</p>
-          <!--<p>
-            <a href="#" class="btn btn-primary">About Drupal &raquo;</a>
-          </p>-->
-        </div>
-      </div>
-
-      <div class="col-md-4 clearfix hero-feature">
-        <div class="col-xs-3 col-md-12 img-container">
-          <img src="/img/html5-logo-small.png" alt="HTML5 logo">
-        </div>
-        <div class="col-xs-9 col-md-12 content-container">
-          <h3>Website Development</h3>
-          <p>Wes provides custom PHP website solutions using modern frameworks and industry best practices.</p>
-          <!--<p>
-          <a href="#" class="btn btn-primary">Learn more &raquo;</a>
-          </p>-->
-        </div>
-      </div>
-
-    </div>
-
-    <div class="row text-center">
-      <div class="col-xs-6 col-md-4 col-lg-2 col-lg-offset-1">
-        <p style="line-height:30px;font-size:11px">
-          <a href="https://www.upwork.com/freelancers/~01f25c7b9c59f5f1b9">
-            Hire me on <img src="/img/upwork.png" height="28" />
-          </a>
-        </p>
-      </div>
-      <div class="col-xs-6 col-md-4 col-lg-2">
-        <p style="line-height:30px;font-size:11px">
-          <a href="https://www.freelancer.com/affiliates/email/18897551/">
-            <img src="https://www.freelancer.com/static/css/images/landingpage/hireme-widget-builder/fl-bird-icon.png">&nbsp;Hire me on Freelancer.com</a>
-        </p>
-      </div>
-      <div class="col-xs-6 col-md-4 col-lg-2">
-        <p>
-          <a href="https://ec.linkedin.com/pub/wes-jones/b/9b5/291">
-            <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Wes Jones's profile on LinkedIn">
-          </a>
-        </p>
-      </div>
-      <div class="col-xs-6 col-md-4 col-lg-2">
-        <p>
-          <a href="https://twitter.com/intent/tweet?screen_name=wesjonesfc" class="twitter-mention-button" data-size="large" data-related="wesjonesfc">Tweet to @wesjonesfc</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        </p>
-      </div>
-      <div class="col-xs-6 col-md-4 col-lg-2">
-        <p style="line-height:30px;font-size:11px">
-          <a href="https://www.facebook.com/earthday47" title="Wes Jones" target="_TOP"><img src="/img/facebook.png" height="28" />&nbsp;&nbsp;View me on Facebook</a>
-        </p>
-      </div>
-    </div>
-    <p>&nbsp;</p>
-
-    <div class="row">
-
-      <div class="col-xs-12 text-center">
-        <p>
-          <a class="btn btn-lg btn-primary" href="/contact" role="button">Contact Wes for your next project &raquo;</a>
-        </p>
-      </div>
-
-    </div>
+    <?php include_once "./_partials/hero_panel.php"; ?>
+    <?php include_once "./_partials/links_row.php"; ?>
+    <?php include_once "./_partials/contact_cta.php"; ?>
 
     <hr />
     <!-- Footer -->

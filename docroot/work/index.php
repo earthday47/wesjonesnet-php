@@ -300,49 +300,9 @@
 
     <hr />
 
-    <div class="row hero-panel">
-
-      <div class="col-md-4 clearfix hero-feature">
-        <div class="col-xs-3 col-md-12 img-container">
-          <img src="/img/colosseum-icon.png" alt="Drupal icon">
-        </div>
-        <div class="col-xs-9 col-md-12 content-container">
-          <h3 class="">Museum Specialist</h3>
-          <p>Wes has over 5 years of experience working closely with museums on website redesigns and IMLS grant-funded projects.</p>
-        </div>
-      </div>
-
-      <div class="col-md-4 clearfix hero-feature">
-        <div class="col-xs-3 col-md-12 img-container">
-          <img src="/img/druplicon-small.png" alt="Drupal icon">
-        </div>
-        <div class="col-xs-9 col-md-12 content-container">
-          <h3 class="">Drupal Consulting</h3>
-          <p>Wes specializes in site building, theming and custom module development using the Drupal 7 web application framework.</p>
-        </div>
-      </div>
-
-      <div class="col-md-4 clearfix hero-feature">
-        <div class="col-xs-3 col-md-12 img-container">
-          <img src="/img/html5-logo-small.png" alt="HTML5 logo">
-        </div>
-        <div class="col-xs-9 col-md-12 content-container">
-          <h3>Website Development</h3>
-          <p>Wes provides custom PHP website solutions using modern frameworks and industry best practices.</p>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="row">
-
-      <div class="col-xs-12 text-center">
-        <p>
-          <a class="btn btn-lg btn-primary" href="mailto:wes@wesjones.net" role="button">Contact Wes for your next project &raquo;</a>
-        </p>
-      </div>
-
-    </div>
+    <?php include_once "../_partials/hero_panel.php"; ?>
+    <?php include_once "../_partials/links_row.php"; ?>
+    <?php include_once "../_partials/contact_cta.php"; ?>
 
     <hr />
     <!-- Footer -->
