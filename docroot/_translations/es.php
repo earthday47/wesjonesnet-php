@@ -35,7 +35,16 @@ $translate['about_body'] = "
 
 <p>Wes vivió en China a partir de 2012-2014 y viajó extensamente a través de Asia. Cuando esté en casa, le gusta tocar la música y mirar deportes, en particular el fútbol europeo.</p>
 ";
+
 $translate['work_pagetitle'] = 'Trabajo | Desarollador Drupal Cuenca Ecuador';
 $translate['work_h1'] = 'Trabajo';
 $translate['work_p'] = 'Ve el trabajo de Wes Jones en <strong>diseño web</strong>, desarollo Drupal, y el desarollo de <strong>aplicaciones de PHP y MySQL</strong>.';
 $translate['work_title'] = 'Línea de tiempo';
+
+$translate['contact_pagetitle'] = 'Contacto | Consultante Drupal y desarollo web';
+$translate['contact_body1'] = "
+<h3>Si desea ponerse en contacto conmigo sobre el desarrollo personalizado, un proyecto del sitio web, o los servicios del traducción, envíame un email a <a href=\"mailto:wes@wesjones.net\">wes@wesjones.net</a>.</h3>
+
+<h3>O alcancarme en una de las siguientes redes:<br /><br /></h3>
+";
+$translate['contact_body2'] = '<h3>Espero con interés hablar con usted!</h3>';

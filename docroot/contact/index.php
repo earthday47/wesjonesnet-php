@@ -1,3 +1,4 @@
+<?php include_once "./../_includes/global.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Contact | Drupal Consulting &amp; Web Development | Wesjones.net</title>
+  <title><?php print t('contact_pagetitle', 'Contact | Drupal Consulting &amp; Web Development'); ?> | Wesjones.net</title>
 
   <!-- Bootstrap core CSS -->
   <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -40,10 +41,10 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/work">Work</a></li>
-            <li class="active"><a href="/contact">Contact <span class="sr-only">(current)</span></a></li>
+            <li><a href="/"><?php print t('nav_home', 'Home'); ?></a></li>
+            <li><a href="/about"><?php print t('nav_about', 'About'); ?></a></li>
+            <li><a href="/work"><?php print t('nav_work', 'Work'); ?></a></li>
+            <li class="active"><a href="/contact"><?php print t('nav_contact', 'Contact'); ?> <span class="sr-only">(current)</span></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div><!--/.container-fluid -->
@@ -52,15 +53,17 @@
     <div class="main-content">
 
       <div class="container">
-        <h1>Contact</h1>
+        <h1><?php print t('contact_h1', 'Contact'); ?></h1>
 
-        <h3>If you'd like to contact me about custom development, a Website project, or translation services, email me at <a href="mailto:wes@wesjones.net">wes@wesjones.net</a>.</h3>
+        <?php print t('contact_body1', "
+          <h3>If you'd like to contact me about custom development, a Website project, or translation services, email me at <a href=\"mailto:wes@wesjones.net\">wes@wesjones.net</a>.</h3>
 
-        <h3>Or reach out to me on one of the following networks:<br /><br /></h3>
+          <h3>Or reach out to me on one of the following networks:<br /><br /></h3>
+        "); ?>
 
         <?php include_once "../_partials/links_row.php"; ?>
 
-        <h3>I look forward to hearing from you!
+        <h3>I look forward to hearing from you!</h3>
 
         <p>&nbsp;</p>
       </div>
