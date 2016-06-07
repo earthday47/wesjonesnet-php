@@ -1,3 +1,4 @@
+<?php include_once "./../_includes/global.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>About | Drupal Developer Rochester NY | WesJones.net</title>
+  <title><?php print t('about_pagetitle', 'About | Drupal Developer Rochester NY'); ?> | WesJones.net</title>
 
   <!-- Bootstrap core CSS -->
   <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -40,10 +41,10 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/">Home</a></li>
-            <li class="active"><a href="/about">About <span class="sr-only">(current)</span></a></li>
-            <li><a href="/work">Work</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/"><?php print t('nav_home', 'Home'); ?></a></li>
+            <li class="active"><a href="/about"><?php print t('nav_about', 'About'); ?> <span class="sr-only">(current)</span></a></li>
+            <li><a href="/work"><?php print t('nav_work', 'Work'); ?></a></li>
+            <li><a href="/contact"><?php print t('nav_contact', 'Contact'); ?></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div><!--/.container-fluid -->
@@ -52,31 +53,33 @@
     <div class="jumbotron container">
       <!-- Main -->
       <div class="col-xs-9 col-sm-8 col-md-7">
-        <h1>About</h1>
-        <h2>Wes Jones is a Web developer and Drupal consultant from Rochester,&nbsp;NY.</h2>
+        <h1><?php print t('about_h1', 'About'); ?></h1>
+        <h2><?php print t('about_h2', 'Wes Jones is a Web developer and Drupal consultant from Rochester,&nbsp;NY.'); ?></h2>
         <p>Wes loves what he does, motivated by a passion for technology, mathematics, and problem solving.</p>
       </div>
     </div>
 
     <div class="main-content">
 
-      <p><a class="btn btn-primary" href="/files/Resume-WesJones.pdf">View Wes' full resume &raquo;</a></p>
+      <p><a class="btn btn-primary" href="/files/Resume-WesJones.pdf"><?php print t('resume_link', "View Wes' full resume"); ?> &raquo;</a></p>
 
-      <h2>Drupal Consulting</h2>
+      <?php print t('about_body', "
+        <h2>Drupal Consulting</h2>
 
-      <p>Wes completed his first project with Drupal for Strong National Museum of Play in 2009&mdash;A Drupal 6 implementation with 6 interlocking websites, part of an 18-month rebranding and website redesign project. Since then, he's deployed more than a dozen sites in Drupal 6 and Drupal 7. He's used his extensive knowledge of the Drupal API to build Drupal themes and develop custom modules.</p>
+        <p>Wes completed his first project with Drupal for Strong National Museum of Play in 2009&mdash;A Drupal 6 implementation with 6 interlocking websites, part of an 18-month rebranding and website redesign project. Since then, he's deployed more than a dozen sites in Drupal 6 and Drupal 7. He's used his extensive knowledge of the Drupal API to build Drupal themes and develop custom modules.</p>
 
-      <h2>Website Development</h2>
+        <h2>Website Development</h2>
 
-      <p>Wes specializes in custom website and Web application development on the LAMP stack&mdash;Linux, Apache, MySQL, and PHP&mdash;using PHP, HTML, CSS, and Javascript (jQuery).</p>
+        <p>Wes specializes in custom website and Web application development on the LAMP stack&mdash;Linux, Apache, MySQL, and PHP&mdash;using PHP, HTML, CSS, and Javascript (jQuery).</p>
 
-      <p>While Wes has the most experience working with Drupal, he has built websites using custom PHP, Wordpress, and MVC frameworks like Yii.</p>
+        <p>While Wes has the most experience working with Drupal, he has built websites using custom PHP, Wordpress, and MVC frameworks like Yii.</p>
 
-      <h2>他也会讲中文!</h2>
+        <h2>他也会讲中文!</h2>
 
-      <p>Wes loves learning languages. He's fluent in Mandarin Chinese and Spanish and has studied Cantonese, Korean, Japanese, and American Sign Language (ASL).</p>
+        <p>Wes loves learning languages. He's fluent in Mandarin Chinese and Spanish and has studied Cantonese, Korean, Japanese, and American Sign Language (ASL).</p>
 
-      <p>Wes lived in China from 2012-14 and traveled extensively throughout Asia. While at home, he enjoys playing music and watching sports, especially European football (soccer).</p>
+        <p>Wes lived in China from 2012-14 and traveled extensively throughout Asia. While at home, he enjoys playing music and watching sports, especially European football (soccer).</p>
+      "); ?>
 
     </div>
 
