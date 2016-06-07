@@ -35,3 +35,7 @@ $translate['about_body'] = "
 
 <p>Wes vivió en China a partir de 2012-2014 y viajó extensamente a través de Asia. Cuando esté en casa, le gusta tocar la música y mirar deportes, en particular el fútbol europeo.</p>
 ";
+$translate['work_pagetitle'] = 'Trabajo | Desarollador Drupal Cuenca Ecuador';
+$translate['work_h1'] = 'Trabajo';
+$translate['work_p'] = 'Ve el trabajo de Wes Jones en <strong>diseño web</strong>, desarollo Drupal, y el desarollo de <strong>aplicaciones de PHP y MySQL</strong>.';
+$translate['work_title'] = 'Línea de tiempo';

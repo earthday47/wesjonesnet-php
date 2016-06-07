@@ -1,3 +1,4 @@
+<?php include_once "./../_includes/global.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Work | Drupal Developer Rochester NY | WesJones.net</title>
+  <title><?php print t('work_pagetitle', 'Work | Drupal Developer Rochester NY'); ?> | WesJones.net</title>
 
   <!-- Bootstrap core CSS -->
   <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -40,10 +41,10 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li class="active"><a href="/work">Work <span class="sr-only">(current)</span></a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/"><?php print t('nav_home', 'Home'); ?></a></li>
+            <li><a href="/about"><?php print t('nav_about', 'About'); ?></a></li>
+            <li class="active"><a href="/work"><?php print t('nav_work', 'Work'); ?> <span class="sr-only">(current)</span></a></li>
+            <li><a href="/contact"><?php print t('nav_contact', 'Contact'); ?></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div><!--/.container-fluid -->
@@ -52,16 +53,16 @@
     <div class="jumbotron container">
       <!-- Main -->
       <div class="col-xs-9 col-sm-8 col-md-7">
-        <h1>Work</h1>
-        <p>View Wes Jones' work in <strong>Web design</strong>, <strong>Drupal development</strong>, and <strong>PHP/MySQL application development</strong>.</p>
+        <h1><?php print t('work_h1', 'Work'); ?></h1>
+        <p><?php print t('work_p', "View Wes Jones' work in <strong>Web design</strong>, <strong>Drupal development</strong>, and <strong>PHP/MySQL application development</strong>."); ?></p>
       </div>
     </div>
 
     <div class="main-content">
 
-      <p><a class="btn btn-primary" href="/files/Resume-WesJones.pdf">View Wes' full resume &raquo;</a></p>
+      <p><a class="btn btn-primary" href="/files/Resume-WesJones.pdf"><?php print t('resume_link', "View Wes' full resume"); ?> &raquo;</a></p>
 
-      <h2>Timeline</h2>
+      <h2><?php print t('work_title', 'Timeline'); ?></h2>
 
       <div class="container">
         <ul class="timeline">
