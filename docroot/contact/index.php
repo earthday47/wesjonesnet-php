@@ -63,7 +63,7 @@
 
         <?php include_once "../_partials/links_row.php"; ?>
 
-        <h3>I look forward to hearing from you!</h3>
+        <?php print t('contact_body2', '<h3>I look forward to hearing from you!</h3>'); ?>
 
         <p>&nbsp;</p>
       </div>
