@@ -115,7 +115,7 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="timeline-title">Fastly</h4>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://www.linguisticsociety.org/">http://www.linguisticsociety.org/</a></small></p>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="https://www.fastly.com/">https://www.fastly.com/</a></small></p>
                 </div>
                 <div class="timeline-body"></div>
               </div>
@@ -135,7 +135,7 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="timeline-title">Linguistic Society of America</h4>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="https://www.fastly.com/">https://www.fastly.com/</a></small></p>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://www.linguisticsociety.org/">http://www.linguisticsociety.org/</a></small></p>
                 </div>
                 <div class="timeline-body"></div>
               </div>
