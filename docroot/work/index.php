@@ -25,6 +25,8 @@
 
 <body class="work">
 
+<?php include_once "./../_partials/lang_toggle.php"; ?>
+
   <div class="container">
 
     <!-- Static navbar -->

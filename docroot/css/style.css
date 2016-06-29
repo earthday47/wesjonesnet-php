@@ -27,9 +27,25 @@ strong, b {
 	font-size: 20px;
 }
 
-body {
-	padding-top: 15px;
-	padding-bottom: 15px;
+body {}
+
+.lang-toggle {
+  background: #337ab7;
+  padding-top: 7px;
+  padding-bottom: 8px;
+  font-size: 14px;
+  line-height: 15px;
+  color: #fff;
+  text-align: right;
+}
+
+.lang-toggle a {
+  color: #fff;
+}
+
+body > .container {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .navbar {
@@ -92,7 +108,7 @@ body {
 }
 
 .hero-feature .img-container {
-	
+
 }
 
 .hero-feature img {
