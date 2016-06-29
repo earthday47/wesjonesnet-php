@@ -53,9 +53,9 @@
     <!-- Main component for a primary marketing message or call to action -->
     <div class="jumbotron">
       <h1><?php print t('jumbotron_h1', 'Drupal websites and translation&nbsp;services.'); ?></h1>
-      <p><?php print t('jumbotron_p', 'Wes Jones is a Web developer from <strong>Rochester, NY</strong> living in <strong>Cuenca, Ecuador</strong>, specializing in <strong>Drupal</strong> and <strong>Backdrop CMS</strong> and multilingual website development in <strong>Spanish</strong> and <strong>Mandarin Chinese</strong>.'); ?></p>
+      <p><?php print t('jumbotron_p', 'Wes Jones is a Web developer from <strong>Rochester, NY</strong> living in <strong>Cuenca, Ecuador</strong>, specializing in <strong>Drupal</strong>, <strong>Backdrop CMS</strong>, and multilingual website development in <strong>Spanish</strong> and <strong>Mandarin Chinese</strong>.'); ?></p>
       <p>
-        <a class="btn btn-lg btn-primary" href="mailto:wes@wesjones.net" role="button"><?php print t('cta_button_text', 'Contact Wes for your next project'); ?> &raquo;</a>
+        <a class="btn btn-lg btn-primary" href="mailto:wes@wesjones.net" role="button"><?php print t('cta_button_text', 'Contact Wes<span class="hidden-xs"> for your next project</span>'); ?> &raquo;</a>
       </p>
     </div>
 
