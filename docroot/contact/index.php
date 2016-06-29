@@ -39,14 +39,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">WesJones.net</a>
+          <a class="navbar-brand" href="<?php print url('/'); ?>">WesJones.net</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/"><?php print t('nav_home', 'Home'); ?></a></li>
-            <li><a href="/about"><?php print t('nav_about', 'About'); ?></a></li>
-            <li><a href="/work"><?php print t('nav_work', 'Work'); ?></a></li>
-            <li class="active"><a href="/contact"><?php print t('nav_contact', 'Contact'); ?> <span class="sr-only">(current)</span></a></li>
+            <li><a href="<?php print url('/'); ?>"><?php print t('nav_home', 'Home'); ?></a></li>
+            <li><a href="<?php print url('/about'); ?>"><?php print t('nav_about', 'About'); ?></a></li>
+            <li><a href="<?php print url('/work'); ?>"><?php print t('nav_work', 'Work'); ?></a></li>
+            <li class="active"><a href="<?php print url('/contact'); ?>"><?php print t('nav_contact', 'Contact'); ?> <span class="sr-only">(current)</span></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div><!--/.container-fluid -->

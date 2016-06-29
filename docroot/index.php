@@ -39,14 +39,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">WesJones.net</a>
+          <a class="navbar-brand" href="<?php print url('/'); ?>">WesJones.net</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="/"><?php print t('nav_home', 'Home'); ?> <span class="sr-only">(current)</span></a></li>
-            <li><a href="/about"><?php print t('nav_about', 'About'); ?></a></li>
-            <li><a href="/work"><?php print t('nav_work', 'Work'); ?></a></li>
-            <li><a href="/contact"><?php print t('nav_contact', 'Contact'); ?></a></li>
+            <li class="active"><a href="<?php print url('/'); ?>"><?php print t('nav_home', 'Home'); ?> <span class="sr-only">(current)</span></a></li>
+            <li><a href="<?php print url('/about'); ?>"><?php print t('nav_about', 'About'); ?></a></li>
+            <li><a href="<?php print url('/work'); ?>"><?php print t('nav_work', 'Work'); ?></a></li>
+            <li><a href="<?php print url('/contact'); ?>"><?php print t('nav_contact', 'Contact'); ?></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div><!--/.container-fluid -->
@@ -57,7 +57,7 @@
       <h1><?php print t('jumbotron_h1', 'Drupal websites and translation&nbsp;services.'); ?></h1>
       <p><?php print t('jumbotron_p', 'Wes Jones is a Web developer from <strong>Rochester, NY</strong> living in <strong>Cuenca, Ecuador</strong>, specializing in <strong>Drupal</strong>, <strong>Backdrop CMS</strong>, and multilingual website development in <strong>Spanish</strong> and <strong>Mandarin Chinese</strong>.'); ?></p>
       <p>
-        <a class="btn btn-lg btn-primary" href="mailto:wes@wesjones.net" role="button"><?php print t('cta_button_text', 'Contact Wes<span class="hidden-xs"> for your next project</span>'); ?> &raquo;</a>
+        <a class="btn btn-lg btn-primary" href="<?php print url('/contact'); ?>" role="button"><?php print t('cta_button_text', 'Contact Wes<span class="hidden-xs"> for your next project</span>'); ?> &raquo;</a>
       </p>
     </div>
 

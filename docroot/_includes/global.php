@@ -29,3 +29,11 @@ function t($key, $default) {
 
   return $default;
 }
+
+function url($path) {
+  $lang = get_lang();
+  if ($lang != 'en') {
+    return $path . '?lang=' . $lang;
+  }
+  return $path;
+}
