@@ -42,6 +42,7 @@ $translate['work_p'] = 'Vea el trabajo de Wes Jones en <strong>diseño web</stro
 $translate['work_title'] = 'Línea de tiempo';
 
 $translate['contact_pagetitle'] = 'Contacto | Consultoria Drupal y desarollo web';
+$translate['contact_h1'] = 'Contacto';
 $translate['contact_body1'] = "
 <h3>Hola! Si desea ponerse en contacto conmigo para desarrollo personalizado, algún proyecto de sitios web, o los servicios de traducción, puede hacerlo al correo electrónico: <a href=\"mailto:wes@wesjones.net\">wes@wesjones.net</a>.</h3>
 
