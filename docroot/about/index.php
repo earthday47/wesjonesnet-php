@@ -57,7 +57,7 @@
       <div class="col-xs-9 col-sm-8 col-md-7">
         <h1><?php print t('about_h1', 'About'); ?></h1>
         <h2><?php print t('about_h2', 'Wes Jones is a Web developer and Drupal consultant from Rochester,&nbsp;NY.'); ?></h2>
-        <p>Wes loves what he does, motivated by a passion for technology, mathematics, and problem solving.</p>
+        <p><?php print t('about_p', 'Wes loves what he does, motivated by a passion for technology, mathematics, and problem solving.'); ?></p>
       </div>
     </div>
 

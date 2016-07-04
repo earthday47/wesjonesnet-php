@@ -17,6 +17,7 @@ $translate['feature3_p'] = 'Wes ofrece soluciones de sitio web PHP personalizada
 $translate['about_pagetitle'] = 'Acerca de Wes | Desarollador de Drupal, Cuenca Ecuador';
 $translate['about_h1'] = 'Acerca de Wes';
 $translate['about_h2'] = 'Wes Jones es desarollador web y consultor de Drupal nativo de Rochester, Nueva York.';
+$translate['about_p'] = 'Wes ama lo que hace, motivado por un pasión de technología, matematicas, y la resolución de problemas.';
 $translate['resume_link'] = 'Ve el currículum completo de Wes';
 $translate['about_body'] = "
 <h2>Consultoria Drupal</h2>

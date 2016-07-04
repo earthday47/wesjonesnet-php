@@ -17,6 +17,7 @@ $translate['feature3_p'] = 'Wes利用现代的框架和行业最佳实践提供�
 $translate['about_pagetitle'] = '关于 ｜ Drupal开发人员 Cuenca Ecuador（厄瓜多尔周昆卡市）';
 $translate['about_h1'] = '关于Wes';
 $translate['about_h2'] = 'Wes Jones是个网站开发人员和Drupal顾问，来自Rochester&nbsp;NY (美国纽约州罗切斯特市)。';
+$translate['about_p'] = 'Wes爱他的工作，促动他的是对科技，数学，和解决问题的热心。';
 $translate['resume_link'] = '请看Wes的简历（英文）';
 //$translate['about_body'] = "";
 
