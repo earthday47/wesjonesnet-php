@@ -1,5 +1,5 @@
 <?php
-$translate['home_pagetitle'] = 'Desarrollo de páginas web multilingües | Consultor Drupal, Cuenca-Ecuador';
+$translate['home_pagetitle'] = 'Desarrollo de páginas web multilingües | Consultor Drupal, Cuenca Ecuador';
 $translate['nav_home'] = 'Inicio';
 $translate['nav_about'] = 'Acerca de Wes';
 $translate['nav_work'] = 'Trabajo';
@@ -14,7 +14,7 @@ $translate['feature2_p'] = 'Wes se especializa en la creación de sitios web, te
 $translate['feature3_h1'] = 'Desarollo de sitios web';
 $translate['feature3_p'] = 'Wes ofrece soluciones de sitio web PHP personalizadas utilizando sistemas modernos y así como las mejores prácticas de la industria.';
 
-$translate['about_pagetitle'] = 'Acerca de Wes | Desarollador de Drupal, Cuenca-Ecuador';
+$translate['about_pagetitle'] = 'Acerca de Wes | Desarollador de Drupal, Cuenca Ecuador';
 $translate['about_h1'] = 'Acerca de Wes';
 $translate['about_h2'] = 'Wes Jones es desarollador web y consultor de Drupal nativo de Rochester, Nueva York.';
 $translate['resume_link'] = 'Ve el currículum completo de Wes';
@@ -38,7 +38,7 @@ $translate['about_body'] = "
 
 $translate['work_pagetitle'] = 'Trabajo | Desarollador Drupal Cuenca Ecuador';
 $translate['work_h1'] = 'Trabajo';
-$translate['work_p'] = 'Vea el trabajo de Wes Jones en <strong>diseño web</strong>, desarollo Drupal, y desarollo de <strong>aplicaciones de PHP y MySQL</strong>.';
+$translate['work_p'] = 'Vea el trabajo de Wes Jones en <strong>diseño web</strong>, <strong>desarollo Drupal</strong>, y desarollo de <strong>aplicaciones de PHP y MySQL</strong>.';
 $translate['work_title'] = 'Línea de tiempo';
 
 $translate['contact_pagetitle'] = 'Contacto | Consultoria Drupal y desarollo web';
