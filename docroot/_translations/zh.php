@@ -25,7 +25,7 @@ $translate['about_body'] = "<h2>Drupal咨询</h2>
 
 <h2>网站开发</h2>
 
-<p>Wes专一开发定制网站和网站应用程序，用LAMP的结构，就是Linux，Apache，MySQL，PHP；也应用PHP，HTML，CSS，和Javascript（jQuery）来编程。</p>
+<p>Wes专门开发定制网站和网站应用程序，用LAMP的结构就是Linux，Apache，MySQL，PHP；也应用PHP，HTML，CSS，和Javascript（jQuery）来编程。</p>
 
 <p>虽然Wes有更多经历用Drupal结构，他会用定制PHP，Wordpress，或Yii Framework一类的MVC结构建设网站。</p>
 
