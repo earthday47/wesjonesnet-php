@@ -9,20 +9,25 @@
  *  - Red        #f64f5f
  */
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600,600italic&subset=latin,latin-ext);
+
 body {
 	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 1.8em;
 	/*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
 }
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-weight: 600;
 }
+
 strong, b {
 	font-weight: 600;
 }
+
 .btn {
 	font-size: 16px;
 }
+
 .btn-lg, .btn-group-lg > .btn {
 	font-size: 20px;
 }
@@ -52,18 +57,22 @@ body > .container {
 	border-radius: 0;
   	margin-bottom: 15px;
 }
+
 .navbar-default {
 	background: none !important;
 	border: none !important;
 }
+
 .navbar-default .navbar-brand {
 	color: #000;
 	font-size: 24px;
 	font-weight: bold;
 }
+
 .navbar-default .navbar-nav > li > a {
 	color: #000;
 }
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -78,23 +87,37 @@ body > .container {
 	color: #fff;
 	max-width: 100%;
 }
+
 .about .container .jumbotron,
 .about .container-fluid .jumbotron {
 	background: url(/img/summer-palace.jpg) center center #000;
 }
+
 .work .container .jumbotron,
 .work .container-fluid .jumbotron {
 	background: url(/img/irondequoit-bay.jpg) center center #000;
 }
+
 .jumbotron h1 {
 	margin-top: 0;
 }
+
 .jumbotron h1, .jumbotron h2, .jumbotron p {
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
 }
+
 .jumbotron .btn {
 	text-shadow: none;
 	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+/* Homepage. */
+.intro-video {
+  padding: 30px 0;
+  text-align: center;
+}
+.intro-video iframe {
+  max-width: 100%;
 }
 
 .hero-panel {
@@ -107,9 +130,7 @@ body > .container {
 	margin-bottom: 30px;
 }
 
-.hero-feature .img-container {
-
-}
+.hero-feature .img-container {}
 
 .hero-feature img {
 	margin-top: 15px;

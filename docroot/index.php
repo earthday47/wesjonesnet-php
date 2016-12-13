@@ -61,6 +61,10 @@
       </p>
     </div>
 
+    <div class="intro-video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/JHLJ43VbMJw?rel=0" height="315" frameborder="0" allowfullscreen></iframe>
+    </div>
+
     <?php include_once "./_partials/hero_panel.php"; ?>
     <?php include_once "./_partials/links_row.php"; ?>
     <?php include_once "./_partials/contact_cta.php"; ?>
