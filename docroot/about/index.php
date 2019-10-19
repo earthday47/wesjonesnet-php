@@ -68,7 +68,9 @@
       <?php print t('about_body', "
         <h2>Drupal Consulting</h2>
 
-        <p>Wes completed his first project with Drupal for Strong National Museum of Play in 2009&mdash;A Drupal 6 implementation with 6 interlocking websites, part of an 18-month rebranding and website redesign project. Since then, he's deployed more than a dozen sites in Drupal 6 and Drupal 7. He's used his extensive knowledge of the Drupal API to build Drupal themes and develop custom modules.</p>
+        <p>Wes completed his first project with Drupal for Strong National Museum of Play in 2009&mdash;A Drupal 6 implementation with 6 interlocking websites, part of an 18-month rebranding and website redesign project. Since then, he's deployed dozens of sites in Drupal 6, 7, and 8. He's used his extensive knowledge of the Drupal API to develop custom modules and themes.</p>
+
+        <p>Wes is an <a href=\"https://certification.acquia.com/registry?fname=Wesley&lname=Jones&city=Rochester&state=&country=&org=&exam=All\" target=\"_blank\">Acquia Certified Developer</a>. View his <a href=\"https://www.drupal.org/u/earthday47\" target=\"_blank\">Drupal.org profile page</a>.</p>
 
         <h2>Website Development</h2>
 

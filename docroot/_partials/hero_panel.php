@@ -15,11 +15,11 @@
 
   <div class="col-md-4 clearfix hero-feature">
     <div class="col-xs-3 col-md-12 img-container">
-      <img src="/img/druplicon-small.png" alt="Drupal icon">
+      <img src="/img/d8cd.png" alt="Acquia Certified Developer - Drupal 8">
     </div>
     <div class="col-xs-9 col-md-12 content-container">
       <h3 class=""><?php print t('feature2_h1', 'Drupal Consulting'); ?></h3>
-      <p><?php print t('feature2_p', 'Wes specializes in site building, theming and custom module development using the Drupal 7 web application framework.'); ?></p>
+      <p><?php print t('feature2_p', 'Wes is an <a href="https://certification.acquia.com/registry?fname=Wesley&lname=Jones&city=Rochester&state=&country=&org=&exam=All" target="_blank">Acquia Certified Developer</a> and specializes in site building, theming and custom module development using the Drupal web application framework.'); ?></p>
       <!--<p>
         <a href="#" class="btn btn-primary">About Drupal &raquo;</a>
       </p>-->

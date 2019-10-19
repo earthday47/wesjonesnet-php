@@ -72,22 +72,9 @@
               <div class="timeline-badge job"><i class="glyphicon glyphicon-briefcase"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="timeline-title">Co-owner/Marketing Manager at Travel Contigo</h4>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> June 2015 - present</small></p>
+                  <h4 class="timeline-title">Software Engineer (contract) at Third &amp; Grove</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> 2016 - present</small></p>
                 </div>
-                <div class="timeline-body">
-                  <p>Website development, copy writing and SEO marketing for Travel Contigo website.</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-badge project"><i class="glyphicon glyphicon-cog"></i></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4 class="timeline-title">Travel Contigo</h4>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://www.magmutual.com/">https://travelcontigo.com/</a></small></p>
-                </div>
-                <div class="timeline-body"></div>
               </div>
             </li>
             <li>

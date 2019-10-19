@@ -5,12 +5,12 @@ $translate['nav_about'] = '关于';
 $translate['nav_work'] = '工作';
 $translate['nav_contact'] = '联系';
 $translate['jumbotron_h1'] = 'Drupal网站和翻译服务。';
-$translate['jumbotron_p'] = 'Wes Jones是位专业的网站开发人员。他来自<strong>Rochester NY（美国纽约州罗切斯特市）</strong>现在住Cuenca Ecuador（厄瓜多尔周昆卡市）。他专业做网站建设跟<strong>Drupal</strong>和<strong>Backdrop CMS</strong>，另外做多种语言网站建设，用<strong>西班牙语</strong>和<strong>中文（普通话）</strong>。';
+$translate['jumbotron_p'] = 'Wes Jones是位专业的网站开发人员。他来自<strong>Rochester NY（美国纽约州罗切斯特市）</strong>。他专业做网站建设跟<strong>Drupal</strong>和<strong>Wordpress</strong>，另外做多种语言网站建设，用<strong>西班牙语</strong>和<strong>中文（普通话）</strong>。';
 $translate['cta_button_text'] = '联系Wes<span class="hidden-xs">为了您的下一个工程</span>';
 $translate['feature1_h1'] = '多种语言庄稼';
 $translate['feature1_p'] = 'Wes会流利地说英文，西班牙语，和普通话，而且有经验用Drupal框架开发多种语言网站。';
 $translate['feature2_h1'] = 'Drupal咨询';
-$translate['feature2_p'] = 'Wes是位专家，利用Drupal 7网站应用程序框架来做网站建设，主题化以及定制模块开发。';
+$translate['feature2_p'] = 'Wes是位<a href="https://certification.acquia.com/registry?fname=Wesley&lname=Jones&city=Rochester&state=&country=&org=&exam=All" target="_blank">被Acquia认证开发人员</a>，利用Drupal网站应用程序框架来做网站建设，主题化以及定制模块开发。';
 $translate['feature3_h1'] = '网站开发';
 $translate['feature3_p'] = 'Wes利用现代的框架和行业最佳实践提供定制PHP网站解决方案。';
 
@@ -21,7 +21,9 @@ $translate['about_p'] = 'Wes爱他的工作，促动他的是他对科技，数�
 $translate['resume_link'] = '请看Wes的简历（英文）';
 $translate['about_body'] = "<h2>Drupal咨询</h2>
 
-<p>在2009年，Wes完成了他第一个Drupal工程，用Drupal 6做六个连锁在一起的网站，是长十八个月的品牌优化与重新设计网站工程的一部分。从那时起，他用了Drupal 6或Drupal 7部署了十几个网站。他用自己对Drupal API的丰富知识建设Drupal的主题和定制模块。</p>
+<p>在2009年，Wes完成了他第一个Drupal工程，用Drupal 6做六个连锁在一起的网站，是长十八个月的品牌优化与重新设计网站工程的一部分。从那时起，他用了Drupal 6，7，或8部署了十几个网站。他用自己对Drupal API的丰富知识建设Drupal的主题和定制模块。</p>
+
+<p>Wes是位<a href=\"https://certification.acquia.com/registry?fname=Wesley&lname=Jones&city=Rochester&state=&country=&org=&exam=All\" target=\"_blank\">被Acquia认证开发人员</a>。看他的<a href=\"https://www.drupal.org/u/earthday47\" target=\"_blank\">Drupal.org用户资料页面</a>。</p>
 
 <h2>网站开发</h2>
 

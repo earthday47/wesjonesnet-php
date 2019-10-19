@@ -5,12 +5,12 @@ $translate['nav_about'] = 'Acerca de Wes';
 $translate['nav_work'] = 'Trabajo';
 $translate['nav_contact'] = 'Contacto';
 $translate['jumbotron_h1'] = 'Ofrece sitios web de Drupal y servicios de traducción.';
-$translate['jumbotron_p'] = 'Wes Jones es un desarollador nativo de <strong>Rochester, Nueva York</strong> que en la actualidad vive en Cuenca, Ecuador. Se especializa en <strong>Drupal</strong>, <strong>Backdrop CMS</strong>, y desarollo de páginas web multilingües en <strong>español</strong> y <strong>chino mandarín</strong> también.';
+$translate['jumbotron_p'] = 'Wes Jones es un desarollador de <strong>Rochester, Nueva York</strong>. Se especializa en <strong>Drupal</strong>, <strong>Wordpress</strong>, y desarollo de páginas web multilingües en <strong>español</strong> y <strong>chino mandarín</strong> también.';
 $translate['cta_button_text'] = 'Contacte a Wes<span class="hidden-xs"> para su próximo proyecto</span>';
 $translate['feature1_h1'] = 'Experto multilingüe';
 $translate['feature1_p'] = 'Wes habla español y chino mandarín con fluidez, además tiene experiencia en la creación de sitios web multilingües utilizando el sistema Drupal.';
 $translate['feature2_h1'] = 'Consoltoria Drupal';
-$translate['feature2_p'] = 'Wes se especializa en la creación de sitios web, tematización y desarollo de módulos personalizados, utilizando el sistema de aplicaciones web de Drupal 7.';
+$translate['feature2_p'] = 'Wes es un <a href="https://certification.acquia.com/registry?fname=Wesley&lname=Jones&city=Rochester&state=&country=&org=&exam=All" target="_blank">desarollador certificado de Acquia</a> y se especializa en la creación de sitios web, tematización y desarollo de módulos personalizados, utilizando el sistema de aplicaciones web de Drupal.';
 $translate['feature3_h1'] = 'Desarollo de sitios web';
 $translate['feature3_p'] = 'Wes ofrece soluciones de sitio web PHP personalizadas utilizando sistemas modernos y así como las mejores prácticas de la industria.';
 
@@ -22,7 +22,9 @@ $translate['resume_link'] = 'Ve el currículum completo de Wes';
 $translate['about_body'] = "
 <h2>Consultoria Drupal</h2>
 
-<p>Wes completó su primer proyecto con Drupal para el Strong National Museum of Play en 2009: una implementación de Drupal 6 con 6 sitios entrelazados, parte de un proyecto de 18 meses que incluyó un cambio de marco y rediseño del sitio web. Desde entonces, Wes ha desplegado más de una docena de sitios con Drupal 6 y Drupal 7. Ha utilizando su amplio conocimiento de la Drupal API para construir temas de Drupal y desarollar módulos personalizados.</p>
+<p>Wes completó su primer proyecto con Drupal para el Strong National Museum of Play en 2009: una implementación de Drupal 6 con 6 sitios entrelazados, parte de un proyecto de 18 meses que incluyó un cambio de marco y rediseño del sitio web. Desde entonces, Wes ha desplegado más de una docena de sitios con Drupal 6, 7 y 8. Ha utilizando su amplio conocimiento de la Drupal API para desarollar módulos personalizados y temas.</p>
+
+<p>Wes es un <a href=\"https://certification.acquia.com/registry?fname=Wesley&lname=Jones&city=Rochester&state=&country=&org=&exam=All\" target=\"_blank\">desarollador certificado de Acquia</a>. Visita su <a href=\"https://www.drupal.org/u/earthday47\" target=\"_blank\">pérfil en Drupal.org</a>.</p>
 
 <h2>Desarollo de sitios web</h2>
 
