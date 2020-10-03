@@ -1,9 +1,8 @@
 <div class="row text-center">
   <div class="col-xs-6 col-md-4 col-md-offset-2">
-    <p>
-      <a class="btn btn-default" href="https://www.toptal.com/resume/wesley-jones">
-        Hire me on Toptal
-      </a>
+    <p style="padding-top:4px">
+      <script async defer src="https://buttons.github.io/buttons.js"></script>
+      <a class="github-button" href="https://github.com/earthday47" data-size="large" aria-label="Follow @earthday47 on GitHub">Follow @earthday47</a>
     </p>
   </div>
   <div class="col-xs-6 col-md-4">

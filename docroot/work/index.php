@@ -71,8 +71,11 @@
               <div class="timeline-badge job"><i class="glyphicon glyphicon-briefcase"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="timeline-title">Software Engineer (contract) at Third &amp; Grove</h4>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> 2016 - present</small></p>
+                  <h4 class="timeline-title">Senior Software Engineer/Lead at Third &amp; Grove</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> 2017 - present</small></p>
+                </div>
+                <div class="timeline-body">
+                  <p>Development lead for projects, assisting with documentation, sprint planning, estimation, code review, and client communication.</p>
                 </div>
               </div>
             </li>
@@ -92,26 +95,6 @@
               <div class="timeline-badge project"><i class="glyphicon glyphicon-cog"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="timeline-title">MagMutual</h4>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://www.magmutual.com/">http://www.magmutual.com/</a></small></p>
-                </div>
-                <div class="timeline-body"></div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-badge project"><i class="glyphicon glyphicon-cog"></i></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4 class="timeline-title">Fastly</h4>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="https://www.fastly.com/">https://www.fastly.com/</a></small></p>
-                </div>
-                <div class="timeline-body"></div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-badge project"><i class="glyphicon glyphicon-cog"></i></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
                   <h4 class="timeline-title">Quicken</h4>
                   <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://www.quicken.com/">http://www.quicken.com/</a></small></p>
                 </div>
@@ -122,8 +105,39 @@
               <div class="timeline-badge project"><i class="glyphicon glyphicon-cog"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="timeline-title">Linguistic Society of America</h4>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="http://www.linguisticsociety.org/">http://www.linguisticsociety.org/</a></small></p>
+                  <h4 class="timeline-title">King Arthur Flour</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="https://www.kingarthurbaking.com/">https://www.kingarthurbaking.com/</a></small></p>
+                </div>
+                <div class="timeline-body"></div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge project"><i class="glyphicon glyphicon-cog"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">CooperVision</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="https://coopervision.com/">https://coopervision.com/</a></small></p>
+                </div>
+                <div class="timeline-body"></div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge project"><i class="glyphicon glyphicon-cog"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Third and Grove: Drupal 8 decoupled + Gatsby</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="https://www.thirdandgrove.com/">https://www.thirdandgrove.com/</a></small></p>
+                </div>
+                <div class="timeline-body"></div>
+              </div>
+            </li>
+
+            <li class="timeline-inverted">
+              <div class="timeline-badge project"><i class="glyphicon glyphicon-cog"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Chestnut Hill Realty</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="https://www.chr-apartments.com/">https://www.chr-apartments.com/</a></small></p>
                 </div>
                 <div class="timeline-body"></div>
               </div>
