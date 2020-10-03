@@ -30,3 +30,5 @@ Thumbs.db
 .sass-cache/*
 *.css.map
 
+package-lock.json
+node_modules
