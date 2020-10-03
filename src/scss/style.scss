@@ -205,11 +205,19 @@ body > .container {
 .hero-feature {
   height: 100%;
   margin-bottom: 30px;
+
+  @include bp(md) {
+    text-align: center;
+  }
 }
 
 .hero-feature img {
   margin-top: 15px;
   max-width: 100%;
+
+  @include bp(md) {
+    height: 100px;
+  }
 }
 
 .main-content {
@@ -231,9 +239,30 @@ body > .container {
   position: relative;
 }
 
+.timeline:before {
+  @include bp(sm) {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    background-color: #eeeeee;
+    left: 95%;
+    margin-left: -1.5px;
+  }
+
+  @include bp(lg) {
+    left: 50%;
+  }
+}
+
 .timeline > li {
   margin-bottom: 40px;
   position: relative;
+
+  @include bp(sm) {
+    margin-bottom: 20px;
+  }
 }
 
 .timeline > li:before,
@@ -263,8 +292,72 @@ body > .container {
   border-radius: 2px;
   padding: 5px 15px;
   position: relative;
-  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(255, 255, 255, 0.175);
+
+  @include bp(sm) {
+    width: 87%;
+    padding-right: 15px;
+  }
+
+  @include bp(md) {
+    width: 89%;
+  }
+
+  @include bp(lg) {
+    width: 45%;
+  }
+}
+
+.timeline > li > .timeline-panel:before {
+  @include bp(sm) {
+    position: absolute;
+    top: 26px;
+    right: -15px;
+    display: inline-block;
+    border-top: 15px solid transparent;
+    border-left: 15px solid #ccc;
+    border-right: 0 solid #ccc;
+    border-bottom: 15px solid transparent;
+    content: " ";
+  }
+}
+
+.timeline > li > .timeline-panel:after {
+  @include bp(sm) {
+    position: absolute;
+    top: 27px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #fff;
+    border-right: 0 solid #fff;
+    border-bottom: 14px solid transparent;
+    content: " ";
+  }
+}
+
+.timeline > li.timeline-inverted > .timeline-panel {
+  @include bp(lg) {
+    float: right;
+  }
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  @include bp(lg) {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+  }
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  @include bp(lg) {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+  }
 }
 
 .timeline > li > .timeline-badge {
@@ -280,10 +373,17 @@ body > .container {
   margin-left: -25px;
   background-color: #999999;
   z-index: 100;
-  border-top-right-radius: 50%;
-  border-top-left-radius: 50%;
-  border-bottom-right-radius: 50%;
-  border-bottom-left-radius: 50%;
+  border-radius: 50%;
+
+  @include bp(sm) {
+    top: 16px;
+    right: auto;
+    left: 95%;
+  }
+
+  @include bp(lg) {
+    left: 50%;
+  }
 }
 
 .timeline > li > .timeline-badge .glyphicon {
@@ -308,104 +408,6 @@ body > .container {
   margin-bottom: 10px;
 }
 
-@media (min-width: 768px) {
-  .timeline:before {
-    top: 0;
-    bottom: 0;
-    position: absolute;
-    content: " ";
-    width: 3px;
-    background-color: #eeeeee;
-    left: 95%;
-    margin-left: -1.5px;
-  }
-
-  .timeline > li {
-    margin-bottom: 20px;
-  }
-
-  .timeline > li > .timeline-badge {
-    top: 16px;
-    right: auto;
-    left: 95%;
-  }
-
-  .timeline > li > .timeline-panel {
-    width: 87%;
-    padding-right: 15px;
-  }
-
-  .timeline > li > .timeline-panel:before {
-    position: absolute;
-    top: 26px;
-    right: -15px;
-    display: inline-block;
-    border-top: 15px solid transparent;
-    border-left: 15px solid #ccc;
-    border-right: 0 solid #ccc;
-    border-bottom: 15px solid transparent;
-    content: " ";
-  }
-
-  .timeline > li > .timeline-panel:after {
-    position: absolute;
-    top: 27px;
-    right: -14px;
-    display: inline-block;
-    border-top: 14px solid transparent;
-    border-left: 14px solid #fff;
-    border-right: 0 solid #fff;
-    border-bottom: 14px solid transparent;
-    content: " ";
-  }
-
-}
-
-@media (min-width: 992px) {
-
-  .hero-feature {
-    text-align: center;
-  }
-  .hero-feature img {
-    height: 100px;
-  }
-
-  .timeline > li > .timeline-panel {
-    width: 89%;
-  }
-
-}
-
-@media (min-width: 1200px) {
-
-  .timeline:before {
-    left: 50%;
-  }
-
-  .timeline > li > .timeline-badge {
-    left: 50%;
-  }
-
-  .timeline > li > .timeline-panel {
-    width: 45%;
-  }
-
-  .timeline > li.timeline-inverted > .timeline-panel {
-    float: right;
-  }
-
-  .timeline > li.timeline-inverted > .timeline-panel:before {
-    border-left-width: 0;
-    border-right-width: 15px;
-    left: -15px;
-    right: auto;
-  }
-
-  .timeline > li.timeline-inverted > .timeline-panel:after {
-    border-left-width: 0;
-    border-right-width: 14px;
-    left: -14px;
-    right: auto;
-  }
-
+.timeline-panel .text-muted {
+  color: #999;
 }
