@@ -47,12 +47,34 @@ strong, b {
   font-weight: 600;
 }
 
+a {
+  color: $c-blue;
+}
+
+a:hover,
+a:focus {
+  color: mix($c-blue, $c-black, 80%);
+}
+
 .btn {
   font-size: 16px;
 }
 
 .btn-lg, .btn-group-lg > .btn {
   font-size: 20px;
+}
+
+.btn-primary {
+  background: $c-blue;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background: mix($c-blue, $c-black, 80%);
 }
 
 .lang-toggle {
@@ -125,12 +147,12 @@ body > .container {
 
 .about .container .jumbotron,
 .about .container-fluid .jumbotron {
-  background: url(/img/summer-palace.jpg) center center #000;
+  background-image: url(/img/the-oculus.jpg);
 }
 
 .work .container .jumbotron,
 .work .container-fluid .jumbotron {
-  background: url(/img/irondequoit-bay.jpg) center center #000;
+  background-image: url(/img/el-cajas.jpg);
 }
 
 .jumbotron .inner {

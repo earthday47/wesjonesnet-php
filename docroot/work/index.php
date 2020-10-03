@@ -53,8 +53,7 @@
     </nav>
 
     <div class="jumbotron container">
-      <!-- Main -->
-      <div class="col-xs-9 col-sm-8 col-md-7">
+      <div class="inner">
         <h1><?php print t('work_h1', 'Work'); ?></h1>
         <p><?php print t('work_p', "View Wes Jones' work in <strong>Web design</strong>, <strong>Drupal development</strong>, and <strong>PHP/MySQL application development</strong>."); ?></p>
       </div>
