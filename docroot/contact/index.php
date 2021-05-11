@@ -25,8 +25,6 @@
 
 <body class="contact">
 
-<?php include_once "./../_partials/lang_toggle.php"; ?>
-
   <div class="container">
 
     <!-- Static navbar -->
@@ -43,8 +41,6 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="<?php print url('/'); ?>"><?php print t('nav_home', 'Home'); ?></a></li>
-            <li><a href="<?php print url('/about'); ?>"><?php print t('nav_about', 'About'); ?></a></li>
             <li><a href="<?php print url('/work'); ?>"><?php print t('nav_work', 'Work'); ?></a></li>
             <li class="active"><a href="<?php print url('/contact'); ?>"><?php print t('nav_contact', 'Contact'); ?> <span class="sr-only">(current)</span></a></li>
           </ul>
@@ -59,20 +55,10 @@
 
         <?php print t('contact_body1', "
           <h3>If you'd like to contact me about custom development, a Website project, or translation services, email me at <a href=\"mailto:wes@wesjones.net\">wes@wesjones.net</a>.</h3>
-
-          <h3>Or reach out to me on one of the following networks:<br /><br /></h3>
         "); ?>
-
-        <?php include_once "../_partials/links_row.php"; ?>
-
-        <?php print t('contact_body2', '<h3>I look forward to hearing from you!</h3>'); ?>
-
-        <p>&nbsp;</p>
       </div>
 
-    <hr />
-
-    <?php include_once "../_partials/hero_panel.php"; ?>
+    <?php include_once "../_partials/contact_cta.php"; ?>
 
     <hr />
     <!-- Footer -->

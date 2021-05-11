@@ -77,23 +77,40 @@ a:focus {
   background: mix($c-blue, $c-black, 80%);
 }
 
-.lang-toggle {
-  background: $c-blue;
-  padding-top: 7px;
-  padding-bottom: 8px;
-  font-size: 14px;
-  line-height: 15px;
-  color: $c-black;
-  text-align: right;
-}
-
-.lang-toggle a {
-  color: $c-black;
+html, body {
+  height: 100%;
 }
 
 body > .container {
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+body > .container-fluid {
+  padding: 15px;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: 'header' 'main' 'footer';
+}
+
+body > .container-fluid > .navbar {
+  grid-area: header;
+}
+
+body > .container-fluid > .content-main {
+  grid-area: main;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/img/london-eye.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+body > .container-fluid > .content-bottom {
+  grid-area: footer;
 }
 
 .navbar {
@@ -140,9 +157,7 @@ body > .container {
   max-width: 100%;
   padding: 0;
   border-radius: 0;
-  background-image: url(/img/london-eye.jpg);
-  background-size: cover;
-  background-position: center;
+  background: none;
 
   @include bp(sm) {
     min-height: 500px;
@@ -150,14 +165,11 @@ body > .container {
   }
 }
 
-.about .container .jumbotron,
-.about .container-fluid .jumbotron {
-  background-image: url(/img/the-oculus.jpg);
-}
-
 .work .container .jumbotron,
 .work .container-fluid .jumbotron {
-  background-image: url(/img/el-cajas.jpg);
+  background-image: url(/img/code.jpg);
+  background-size: cover;
+  background-position: right;
 }
 
 .jumbotron .inner {
@@ -168,6 +180,10 @@ body > .container {
     max-width: 60%;
     padding: 20px;
   }
+}
+
+.work .jumbotron .inner {
+  background: none;
 }
 
 .jumbotron h1 {

@@ -8,26 +8,18 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title><?php print t('home_pagetitle', 'Multilingual website development | Drupal consulting Rochester NY'); ?> | WesJones.net</title>
+  <title><?php print t('home_pagetitle', 'Enterprise Drupal website development Rochester NY'); ?> | WesJones.net</title>
 
   <!-- Bootstrap core CSS -->
   <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles -->
   <link href="/css/style.css" rel="stylesheet">
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
 </head>
 
 <body class="home">
 
-<?php include_once "./_partials/lang_toggle.php"; ?>
-
-  <div class="container">
+  <div class="container-fluid">
 
     <!-- Static navbar -->
     <nav class="navbar navbar-default" role="navigation">
@@ -43,8 +35,6 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="<?php print url('/'); ?>"><?php print t('nav_home', 'Home'); ?> <span class="sr-only">(current)</span></a></li>
-            <li><a href="<?php print url('/about'); ?>"><?php print t('nav_about', 'About'); ?></a></li>
             <li><a href="<?php print url('/work'); ?>"><?php print t('nav_work', 'Work'); ?></a></li>
             <li><a href="<?php print url('/contact'); ?>"><?php print t('nav_contact', 'Contact'); ?></a></li>
           </ul>
@@ -53,29 +43,33 @@
     </nav>
 
     <!-- Main component for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="inner">
-        <h1><?php print t('jumbotron_h1', 'Drupal websites and translation services.'); ?></h1>
-        <p><?php print t('jumbotron_p', 'Wes Jones is a Web developer from <strong>Rochester, NY</strong>, specializing in <strong>Drupal 7</strong> and <strong>Drupal 8</strong>, <strong>Wordpress</strong>, and multilingual website development in <strong>Spanish</strong> and <strong>Mandarin Chinese</strong>.'); ?></p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="<?php print url('/contact'); ?>" role="button"><?php print t('cta_button_text', 'Contact Wes<span class="hidden-xs"> for your next project</span>'); ?> &raquo;</a>
-        </p>
-      </div>
-    </div>
-
-    <?php include_once "./_partials/hero_panel.php"; ?>
-    <?php include_once "./_partials/links_row.php"; ?>
-    <?php include_once "./_partials/contact_cta.php"; ?>
-
-    <hr />
-    <!-- Footer -->
-    <footer>
-      <div class="row text-right">
-        <div class="col-lg-12">
-          <p>&copy; WesJones.net <?php echo date('Y'); ?></p>
+    <div class="content-main">
+      <div class="jumbotron">
+        <div class="inner">
+          <h1>Drupal websites.</h1>
+          <p>Wes Jones is a Web developer from <strong>Rochester, NY</strong>, specializing in <strong>Drupal 7, 8, and 9</strong>, and <strong>multilingual website development</strong>. Wes works for <a href="https://www.thirdandgrove.com/"><strong>Third and Grove</strong></a>.<p>
+          <p>Wes speaks Spanish and Mandarin Chinese fluently, and loves <a href="http://music.wesjones.net/"><strong>playing music!</strong></a> 🪕</p>
+          <ul>
+            <li><a href="/work">View Work history</a></li>
+            <li><a href="/files/Resume-WesJones.pdf">Download resume</a></li>
+          </ul>
         </div>
       </div>
-    </footer>
+          </div>
+
+    <div class="content-bottom">
+      <?php include_once "./_partials/contact_cta.php"; ?>
+
+      <hr />
+      <!-- Footer -->
+      <footer>
+        <div class="row text-right">
+          <div class="col-lg-12">
+            <p>&copy; WesJones.net <?php echo date('Y'); ?></p>
+          </div>
+        </div>
+      </footer>
+    </div>
 
   </div> <!-- /container -->
 

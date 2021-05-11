@@ -25,8 +25,6 @@
 
 <body class="work">
 
-<?php include_once "./../_partials/lang_toggle.php"; ?>
-
   <div class="container">
 
     <!-- Static navbar -->
@@ -43,8 +41,6 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="<?php print url('/'); ?>"><?php print t('nav_home', 'Home'); ?></a></li>
-            <li><a href="<?php print url('/about'); ?>"><?php print t('nav_about', 'About'); ?></a></li>
             <li class="active"><a href="<?php print url('/work'); ?>"><?php print t('nav_work', 'Work'); ?> <span class="sr-only">(current)</span></a></li>
             <li><a href="<?php print url('/contact'); ?>"><?php print t('nav_contact', 'Contact'); ?></a></li>
           </ul>
@@ -288,7 +284,7 @@
                 </div>
               </div>
             </li>
-             <li class="timeline-inverted">
+            <li class="timeline-inverted">
               <div class="timeline-badge project"><i class="glyphicon glyphicon-cog"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -303,8 +299,6 @@
 
     <hr />
 
-    <?php include_once "../_partials/hero_panel.php"; ?>
-    <?php include_once "../_partials/links_row.php"; ?>
     <?php include_once "../_partials/contact_cta.php"; ?>
 
     <hr />
