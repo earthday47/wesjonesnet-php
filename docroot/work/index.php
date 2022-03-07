@@ -67,8 +67,8 @@
               <div class="timeline-badge job"><i class="glyphicon glyphicon-briefcase"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="timeline-title">Senior Software Engineer/Lead at Third &amp; Grove</h4>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> 2017 - present</small></p>
+                  <h4 class="timeline-title">Senior Software Engineer / Technical Architect at Third and Grove</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> 2017 - 2022</small></p>
                 </div>
                 <div class="timeline-body">
                   <p>Development lead for projects, assisting with documentation, sprint planning, estimation, code review, and client communication.</p>
@@ -316,7 +316,7 @@
   <!-- Bootstrap core JavaScript
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="/bootstrap/js/bootstrap.min.js"></script>
 
   <?php if ($_SERVER['HTTP_HOST'] == 'www.wesjones.net'): ?>
