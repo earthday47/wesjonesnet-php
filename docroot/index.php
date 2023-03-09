@@ -47,7 +47,8 @@
       <div class="jumbotron">
         <div class="inner">
           <h1>Drupal websites.</h1>
-          <p>Wes Jones is a Web developer from <strong>Rochester, NY</strong>, specializing in <strong>Drupal 7 and 8/9</strong>, <strong>Node.js</strong>, and <strong>multilingual website development</strong>. Wes is available on the <a href="https://www.toptal.com/resume/wesley-jones"><strong>Toptal Developer Network</strong></a>.<p>
+          <p>Wes Jones is a Web developer from <strong>Rochester, NY</strong>, specializing in <strong>Drupal</strong>, <strong>Node.js</strong>, 
+            and <strong>multilingual website development</strong>. Wes works for <a href="https://www.kanopi.com/"><strong>Kanopi Studios</strong></a>.<p>
           <p>Wes speaks Spanish and Mandarin Chinese fluently, and loves <a href="http://music.wesjones.net/"><strong>playing music!</strong></a> 🪕</p>
           <ul>
             <li><a href="/work">View Work history</a></li>
