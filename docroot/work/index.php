@@ -68,7 +68,7 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="timeline-title">Senior Engineer at Kanopi Studios</h4>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i>2022 - present</small></p>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> 2022 - present</small></p>
                 </div>
                 <div class="timeline-body">
                   <p>Drupal support services and development for clients in Drupal 7 and 9.</p>
@@ -90,7 +90,7 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="timeline-title">Senior Engineer at Phase2 Technology</h4>
-                  <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i>2022</small></p>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> 2022</small></p>
                 </div>
                 <div class="timeline-body">
                   <p>Drupal backend development support and planning for enterprise level client projects.</p>
