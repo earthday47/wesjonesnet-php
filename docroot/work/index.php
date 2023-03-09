@@ -67,6 +67,40 @@
               <div class="timeline-badge job"><i class="glyphicon glyphicon-briefcase"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
+                  <h4 class="timeline-title">Senior Engineer at Kanopi Studios</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i>2022 - present</small></p>
+                </div>
+                <div class="timeline-body">
+                  <p>Drupal support services and development for clients in Drupal 7 and 9.</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge project"><i class="glyphicon glyphicon-cog"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">The Gilder Lehrman Institute of American History</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-link"></i> <a href="https://www.gilderlehrman.org/">https://www.gilderlehrman.org/</a></small></p>
+                </div>
+                <div class="timeline-body"></div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-badge job"><i class="glyphicon glyphicon-briefcase"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Senior Engineer at Phase2 Technology</h4>
+                  <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i>2022</small></p>
+                </div>
+                <div class="timeline-body">
+                  <p>Drupal backend development support and planning for enterprise level client projects.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-badge job"><i class="glyphicon glyphicon-briefcase"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
                   <h4 class="timeline-title">Senior Software Engineer / Technical Architect at Third and Grove</h4>
                   <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> 2017 - 2022</small></p>
                 </div>
